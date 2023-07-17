@@ -32,8 +32,8 @@ export default function Chat() {
                 }
                 { message.role === 'assistant' && 
                   <Avatar>
-                    <AvatarFallback>RS</AvatarFallback>
-                    <AvatarImage src="https://github.com/rocketseat.png" />
+                    <AvatarFallback>AI</AvatarFallback>
+                    <AvatarImage src="https://github.com/openai.png" />
                   </Avatar>
                 }
                 <p className="leading-relaxed">
